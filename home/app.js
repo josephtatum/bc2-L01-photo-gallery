@@ -13,7 +13,7 @@ images.forEach(image => {
 });
 
 selectInput.addEventListener('change', () => {
-    while(photoGalleryUl.lastElementChild) {
+    while (photoGalleryUl.lastElementChild) {
         photoGalleryUl.lastElementChild.remove();
     }
     const userSelectedInput = selectInput.value;
@@ -21,7 +21,7 @@ selectInput.addEventListener('change', () => {
 
     filteredArray = images.filter(image => image.keyword === userSelectedInput);
     
-    if(filteredArray.length === 0) {
+    if (filteredArray.length === 0) {
         filteredArray = images;
     }
     
