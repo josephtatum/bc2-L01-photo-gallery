@@ -28,7 +28,6 @@ selectInput.addEventListener('change', () => {
     filteredArray.forEach(image => {
         const renderedImage = renderImage(image);
         const dom = htmlToDOM(renderedImage);
-        console.log(dom)
         photoGalleryUl.appendChild(dom);
     });
 

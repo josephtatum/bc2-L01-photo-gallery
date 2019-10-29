@@ -58,11 +58,6 @@ footer {
     justify-content: space-between;
     align-items: flex-end;
     box-shadow: 0px 5px 5px #ccc;
-    transition: all 0.3sec;
-}
-
-.gallery-item {
-    scale: ;
 }
 
 .item-description {
